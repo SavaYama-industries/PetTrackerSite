@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DogTag Tracker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Customize Tailwind colors if desired */
+    :root {
+      --brand-blue: #4f8bf9;
+      --brand-green: #6bcf9a;
+      --brand-gray: #f5f7fa;
+    }
+  </style>
+</head>
+<body class="bg-brand-gray text-gray-800 font-sans leading-relaxed">
+  <!-- Header -->
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-brand-blue">DogTag Tracker</a>
+      <nav class="space-x-6">
+        <a href="#features" class="hover:text-brand-blue">Features</a>
+        <a href="#pricing" class="hover:text-brand-blue">Pricing</a>
+        <a href="#contact" class="hover:text-brand-blue">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-brand-blue bg-opacity-10 py-20">
+    <div class="container mx-auto px-6 text-center">
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Keep Your Furry Friend Safe</h1>
+      <p class="text-lg md:text-xl mb-8">Real-time tracking & peace of mind. Attach our DogTag Tracker and always know where your pup is.</p>
+      <a href="#pricing" class="bg-brand-blue text-white px-6 py-3 rounded-lg hover:bg-opacity-90 transition">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+          <div class="text-5xl mb-4">📍</div>
+          <h3 class="font-semibold text-xl mb-2">Real-time Location</h3>
+          <p>Track your dog's location on the map with minute-by-minute updates.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+          <div class="text-5xl mb-4">🔋</div>
+          <h3 class="font-semibold text-xl mb-2">Long Battery Life</h3>
+          <p>Up to 7 days of continuous use on a single charge.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+          <div class="text-5xl mb-4">💧</div>
+          <h3 class="font-semibold text-xl mb-2">Water Resistant</h3>
+          <p>Designed for active pups, rain or shine.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscription / Pricing Section -->
+  <section id="pricing" class="py-16 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Subscription Plans</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Basic Plan -->
+        <div class="border border-gray-200 p-6 rounded-lg hover:shadow-lg transition">
+          <h3 class="text-2xl font-semibold mb-4">Basic</h3>
+          <p class="text-4xl font-bold mb-4">£4<span class="text-lg font-normal">/mo</span></p>
+          <ul class="mb-6 space-y-2">
+            <li>✔️ Real-time tracking</li>
+            <li>✔️ Mobile alerts</li>
+            <li>❌ Activity history</li>
+          </ul>
+          <a href="#" class="block text-center bg-brand-green text-white py-2 rounded-lg hover:bg-opacity-90 transition">Choose Basic</a>
+        </div>
+        <!-- Standard Plan -->
+        <div class="border-2 border-brand-blue p-6 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4">Standard</h3>
+          <p class="text-4xl font-bold mb-4">£7<span class="text-lg font-normal">/mo</span></p>
+          <ul class="mb-6 space-y-2">
+            <li>✔️ Real-time tracking</li>
+            <li>✔️ Mobile alerts</li>
+            <li>✔️ 30-day history</li>
+          </ul>
+          <a href="#" class="block text-center bg-brand-blue text-white py-2 rounded-lg hover:bg-opacity-90 transition">Choose Standard</a>
+        </div>
+        <!-- Premium Plan -->
+        <div class="border border-gray-200 p-6 rounded-lg hover:shadow-lg transition">
+          <h3 class="text-2xl font-semibold mb-4">Premium</h3>
+          <p class="text-4xl font-bold mb-4">£12<span class="text-lg font-normal">/mo</span></p>
+          <ul class="mb-6 space-y-2">
+            <li>✔️ Real-time tracking</li>
+            <li>✔️ Mobile alerts</li>
+            <li>✔️ Unlimited history</li>
+            <li>✔️ Emergency support</li>
+          </ul>
+          <a href="#" class="block text-center bg-brand-green text-white py-2 rounded-lg hover:bg-opacity-90 transition">Choose Premium</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Footer -->
+  <footer id="contact" class="bg-brand-gray py-8">
+    <div class="container mx-auto px-6 text-center">
+      <h4 class="text-xl font-semibold mb-4">Get in Touch</h4>
+      <p class="mb-4">Questions? Email us at <a href="mailto:support@dogtagtracker.com" class="text-brand-blue">support@dogtagtracker.com</a></p>
+      <p class="text-sm text-gray-600">&copy; 2025 DogTag Tracker. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
